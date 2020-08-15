@@ -16,6 +16,7 @@
 		04014C1924E7E35F0024DB13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04014C1824E7E35F0024DB13 /* main.m */; };
 		04014C2324E7E3600024DB13 /* KVPageContrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04014C2224E7E3600024DB13 /* KVPageContrlTests.m */; };
 		04014C2E24E7E3600024DB13 /* KVPageContrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04014C2D24E7E3600024DB13 /* KVPageContrlUITests.m */; };
+		04014C3D24E7E3770024DB13 /* KVPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04014C3B24E7E3770024DB13 /* KVPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		04014C2924E7E3600024DB13 /* KVPageContrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVPageContrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04014C2D24E7E3600024DB13 /* KVPageContrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPageContrlUITests.m; sourceTree = "<group>"; };
 		04014C2F24E7E3600024DB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04014C3B24E7E3770024DB13 /* KVPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPageControl.m; sourceTree = "<group>"; };
+		04014C3C24E7E3770024DB13 /* KVPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPageControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		04014C0524E7E3590024DB13 /* KVPageContrl */ = {
 			isa = PBXGroup;
 			children = (
+				04014C3E24E7E3870024DB13 /* pageControl */,
 				04014C0624E7E3590024DB13 /* AppDelegate.h */,
 				04014C0724E7E3590024DB13 /* AppDelegate.m */,
 				04014C0924E7E3590024DB13 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				04014C2F24E7E3600024DB13 /* Info.plist */,
 			);
 			path = KVPageContrlUITests;
+			sourceTree = "<group>";
+		};
+		04014C3E24E7E3870024DB13 /* pageControl */ = {
+			isa = PBXGroup;
+			children = (
+				04014C3C24E7E3770024DB13 /* KVPageControl.h */,
+				04014C3B24E7E3770024DB13 /* KVPageControl.m */,
+			);
+			path = pageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				04014C0E24E7E3590024DB13 /* ViewController.m in Sources */,
 				04014C0824E7E3590024DB13 /* AppDelegate.m in Sources */,
+				04014C3D24E7E3770024DB13 /* KVPageControl.m in Sources */,
 				04014C1924E7E35F0024DB13 /* main.m in Sources */,
 				04014C0B24E7E3590024DB13 /* SceneDelegate.m in Sources */,
 			);
